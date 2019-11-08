@@ -6,6 +6,7 @@ import { Ionicons } from "@expo/vector-icons";
 import { createBottomTabNavigator } from "react-navigation-tabs";
 
 import AnnounceRoot from "./Screens/Announcement/AnnounceRoot";
+import MypageRoot from "./Screens/Mypage/MypageRoot";
 
 class App extends React.Component {
   render() {
@@ -72,7 +73,7 @@ const BottomTabNavigator = createBottomTabNavigator({
     }
   },
   마이페이지: {
-    screen: AnnounceRoot,
+    screen: MypageRoot,
     navigationOptions: {
       tabBarIcon: ({ focused, tintColor }) => {
         const iconName = "ios-settings";

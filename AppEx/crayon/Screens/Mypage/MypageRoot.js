@@ -5,22 +5,18 @@ import { createStackNavigator } from "react-navigation-stack";
 
 import { createBottomTabNavigator } from "react-navigation-tabs";
 
-import HomeScreen from "./HomeScreen";
-import AnnounceDetail from "./AnnounceDetail";
-import AnnounceCard from "./AnnounceCard";
+import MypageMain from "./MypageMain";
 
-const AnnounceRoot = createStackNavigator(
+const MypageRoot = createStackNavigator(
   {
-    Home: HomeScreen,
-    AnnounceDetail: AnnounceDetail,
-    AnnounceCard: AnnounceCard
+    MypageMain: MypageMain
   },
   {
-    initialRouteName: "Home"
+    initialRouteName: "MypageMain"
   }
 );
 
-const AppContainer = createAppContainer(AnnounceRoot);
+const AppContainer = createAppContainer(MypageRoot);
 
 export default class App extends React.Component {
   render() {
