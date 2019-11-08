@@ -7,6 +7,7 @@ import { createBottomTabNavigator } from "react-navigation-tabs";
 
 import AnnounceRoot from "./Screens/Announcement/AnnounceRoot";
 import MypageRoot from "./Screens/Mypage/MypageRoot";
+import UploadRoot from "./Screens/Upload/UploadRoot";
 
 class App extends React.Component {
   render() {
@@ -34,8 +35,8 @@ const BottomTabNavigator = createBottomTabNavigator({
       }
     }
   },
-  달력: {
-    screen: AnnounceRoot,
+  업로드: {
+    screen: UploadRoot,
     navigationOptions: {
       tabBarIcon: ({ focused, tintColor }) => {
         const iconName = "ios-calendar";
