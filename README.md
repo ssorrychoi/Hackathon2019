@@ -1,6 +1,10 @@
 # Hackathon2019
 Jeju 클레이튼 블록체인 해커톤 2019
 
+React-Native : 최재성, 윤영욱, 신영찬
+
+Klaytn : 김민재, 김도림, 김신
+
 ![image](https://user-images.githubusercontent.com/43080040/68730542-51cf3980-0610-11ea-8e0b-462a1d20dca7.png)
 ![image](https://user-images.githubusercontent.com/43080040/68730559-5b58a180-0610-11ea-970c-49c6d1bf5e5d.png)
 ![image](https://user-images.githubusercontent.com/43080040/68730569-63b0dc80-0610-11ea-97cc-6480a2a87ede.png)
